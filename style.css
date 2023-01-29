@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'twayair';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'twayair';
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.title {
+  width: 100%;
+  height: 100px;
+  background-color: #f2dce2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.container {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-box {
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.changeWord {
+  font-size: 2rem;
+  color: #d94a64;
+}
+
+.game-info {
+  font-size: 1.3rem;
+  color: #d94a64;
+}
+
+.game-info span {
+  color: #037f8c;
+  font-size: 1.8rem;
+}
+
+.input {
+  height: 40px;
+  width: 200px;
+  border: 2px solid #037f8c;
+  border-radius: 2%;
+  background-color: #f2dce2;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+button {
+  width: 180px;
+  height: 40px;
+  background-color: #f2c9eb;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.loading {
+  background: #f2c9eb;
+  cursor: not-allowed;
+  font-size: 1.2rem;
+}
